@@ -1,0 +1,7 @@
+type ExampleEntity @entity {
+  id: ID!
+  date: BigInt!
+  count: BigInt!
+  player: Bytes! # address
+  price: BigInt! # uint256
+}
