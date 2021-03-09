@@ -1,4 +1,4 @@
-type ExampleEntity @entity {
+type PlayerEntity @entity {
   id: ID!
   date: BigInt!
   count: BigInt!
